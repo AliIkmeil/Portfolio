@@ -1,0 +1,44 @@
+.homeNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 80px;
+    height: 80px;
+    z-index: 111;
+    }
+    .logo{
+        display: flex;
+        font-size: 40px;
+        font-weight: 800;
+        color: black;
+        letter-spacing: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    b{
+        font-size: 70px;
+        color: blue;
+    }
+    .navItems{
+        display: flex;
+    }
+    .navItems li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    .navItems li a{
+        font-size: 25px;
+        color: gray;
+        letter-spacing: 3px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navItems li:hover a,
+    .links a:hover{
+     color: blueviolet;
+    }
+    .links a{
+        font-size: 30px;
+        color: gray;
+        margin: 25px 10px;
+    }

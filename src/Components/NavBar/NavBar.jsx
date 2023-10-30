@@ -1,9 +1,26 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import "./NavBar.css"
 const NavBar = () => {
     const navigate = useNavigate()
-  return (<nav className="bg-gray-800">
-  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  return (
+    <nav className='homeNav'>
+    <div className='logo'>folio<b>.</b></div>
+    <ul className='navItems'>
+    <li><a href='#'>Home</a></li>
+    <li><a href='#'>About me</a></li>
+    <li><a href='#'>Projects</a></li>
+    <li><a href='#'>Skills</a></li>
+    </ul>
+    <div className='links'>
+    <a href='#'> <i className='fa fa-linkedin-square icon linkedIn'></i></a>
+    <a href='#'><i className='fa fa-instagram icon instagram'></i> </a>
+    <a href='#'><i className='fa fa-twitter icon twitter'></i></a>
+    </div>
+</nav>
+
+//   <nav className="bg-gray-800">
+  /* <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div className="relative flex h-16 items-center justify-between">
       <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
@@ -56,7 +73,7 @@ const NavBar = () => {
       <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
     </div>
   </div>
-</nav>
+</nav> */
     )
 }
 
