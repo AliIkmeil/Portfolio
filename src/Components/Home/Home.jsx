@@ -3,21 +3,28 @@ import NavBar from "../NavBar/NavBar"
 import "./Home.css"
 const Home = () => {
   return (<div className='container'>
-    
+            <div class="table center">
+  <div class="monitor-wrapper center">
+    <div class="monitor center">
+      <p>Hello I'm Ali Ikmeil</p>
+    </div>
+  </div>
+</div>    
     <div className='wrapper'>
         <div className='cols cols0'>
-            <span className='topline'>Hello</span>
-            <h1 className='esme'>I'm <span className='multiText'>Ali Ikmeil</span></h1>
-            <p className='descreption'>Ana saffaaa</p>
-            <div className='btns'>
-                <button className='homeButtons'>Download CV</button>
-                <button className='homeButtons'>Contact me</button>
-            </div>
+            
+            {/* <p className='descreption'>Ana saffaaa</p> */}
+            <div></div>
+            <span className='topline'>Software Developer</span>
+            {/* <span class="typewriter">
+  <h1>Software Developer.</h1>
+</span> */}
+            <h1 className='esme'>Stalk <span className='multiText'>Into<br/> my <br/>Portfolio<b>.</b></span></h1>
         </div>
             <div className='cols cols1'>
                 <div className='imgbox'>
-                    <img src='https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww' id='splash'/>
-                    <img src='https://scontent.famm8-1.fna.fbcdn.net/v/t1.15752-9/370090192_820662176469903_8616237447967342595_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEJrB31RRZGxMD8Hy1sXr36OCOoBVMOZWI4I6gFUw5lYnldJDDzxfilfRXvbE8uFmVD1mzGeyG7DHVvWYriht-k&_nc_ohc=MQ3Z1-j575YAX9Vx6FQ&_nc_ht=scontent.famm8-1.fna&oh=03_AdSf7ZYAL7z7zO6yB2qMZ-jNMQgiX76SWWHsgBCROStHcw&oe=65677E4E'/>
+                    {/* <img src='https://scontent.famm8-1.fna.fbcdn.net/v/t1.15752-9/370100013_281210688225170_7393941161004403483_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHiZD5CBhsrWUkrixU-HVETm-mbRyA_gSub6ZtHID-BK2RvGtHwkicOphVJWmcixxfoxUeEg36Rr7Z76-bDHr2D&_nc_ohc=ktlHe41N66QAX-Eg6vv&_nc_ht=scontent.famm8-1.fna&oh=03_AdS9veRS2kwrM1FKtVL-qbHhqTiShLauZgtPYQob8P0hDg&oe=6568CBA9'/> */}
+        
                 </div>
             </div>
     </div>

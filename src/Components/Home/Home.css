@@ -9,13 +9,30 @@
 }
 body{
     overflow: hidden;
+    
 }
 .container{
     position: relative;
     bottom: 10px;
-    width: 100%;
+    width: 100vw !important;
     min-height: 100vh;
-    background-color: #f3f5f8;
+    background-image: image-set("https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
+    background-size: 100% 100%; 
+    background-position: 160px -50px;
+    background-repeat: no-repeat;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: purple;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 50px;
+    color: gray;
 }
 .wrapper{
     display: flex;
@@ -34,8 +51,7 @@ body{
     position: relative;
     font-size: 35px;
     letter-spacing: 5px;
-    color: rgb(84, 83, 88);
-
+    color: tomato
 }
 .topline::after{
     position: absolute;
@@ -43,16 +59,16 @@ body{
     height: 4px;
     width: 45px;
     bottom: 10px;
-    background-color: blue;
+    background-color: gray;
 }
 .esme{
 display: block;
-font-size: 7em;
+font-size: 4.5em;
 font-weight: 900;
 color: gray;
 }
 .multiText{
-    color: purple;
+    color: tomato;
     text-transform: capitalize;
 }
 .descreption{
@@ -100,25 +116,61 @@ box-shadow: 0 15px 10px rgba(0,0,0,0.4);
 }
 @keyframes animateUser{
     50%{
-        right: 200px;
-        top: -100px;
+        right: 100px;
+        top: 10px;
     }
 }
-.imgbox #splash{
-    position: absolute;
-    left: 65%;
-    top: 50%;
-    height: 190%;
-    transform: translate(-50%,-50%) ;
-    width: 10%;
-    filter: saturate(200%);
-    animation: animate 6s linear infinite;
-}
-@keyframes animate{
-    50%{
-        /* top: 49%;
-        left: 51%; */
-        width: 200%;
-
+  .table {
+    width: 100px;
+    height: 50px;
+    padding-left: 210px;
+    padding-top: 90px;
+  }
+  .table .monitor-wrapper .monitor {
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .table .monitor-wrapper .monitor p {
+    font-family: "VT323", monospace;
+    font-size: 70px;
+    position: relative;
+    display: inline-block;
+    animation: move 7s infinite linear;
+    color: gray;
+  }
+  
+  @keyframes move {
+    from {
+      left: 800px;
     }
-}
+    to {
+      left: -800px;
+    }
+  }
+  .typewriter h1 {
+    color: tomato;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    width: 63%;
+    font-size: 25px;
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 63% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
