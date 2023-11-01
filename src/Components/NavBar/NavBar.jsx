@@ -28,16 +28,16 @@ const NavBar = () => {
           <a href="#">
             <h1 class="jt --debug">
               <span class="jt__row">
-                <span class="jt__text">About Me</span>
+                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
               <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text">About Me</span>
+                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
               <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text">About Me</span>
+                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
               <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text">About Me</span>
+                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
             </h1>
           </a>
@@ -61,16 +61,16 @@ const NavBar = () => {
         <li>
           <a href="#">            <h1 class="jt --debug">
   <span class="jt__row">
-    <span class="jt__text">Skills</span>
+    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
   <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text">Skills</span>
+    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
   <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text">Skills</span>
+    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
   <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text">Skills</span>
+    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
 </h1></a>
         </li>

@@ -4,6 +4,8 @@ import Home from "../Components/Home/Home";
 import Projects from "../Components/Projects/Projects";
 import WashMyRide from "../Components/AllProjects/WashMyRide";
 import KhalekBdarak from "../Components/AllProjects/KhalekBdarak";
+import AboutMe from "../Components/AboutMe/AboutMe";
+import Game from "../Components/Game/Game";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +26,12 @@ export const router = createBrowserRouter([
       { path: "/khalekBdarak", 
       element: <KhalekBdarak />
       },
+      { path: "/aboutme", 
+      element: <AboutMe />
+      },
     ],
-  },
+},
+{ path: "/game", 
+element: <Game />
+},
 ]);

@@ -1,4 +1,4 @@
-.homeNav{
+    .homeNav{
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -7,22 +7,16 @@
     z-index: 111;
     
     }
-    b{
-        font-size: 70px;
-        color: blue;
-    }
     .navItems{
         display: flex;
     }
     .navItems li{
         list-style: none;
         margin: 0 15px;
-        /* background-color: tomato; */
     }
     .navItems li a{
         font-size: 25px;
         color: tomato;
-        background-color: tomato;
         letter-spacing: 3px;
         text-decoration: none;
         text-transform: capitalize;
@@ -46,10 +40,10 @@
   font-display: swap;
   text-shadow: 0 0 10px tomato;
 }
-
 .jt__row {
   display: block;
 }
+
 .jt__row:nth-child(1) {
   clip-path: polygon(-10% 75%, 110% 75%, 110% 110%, -10% 110%);
 }
@@ -68,8 +62,10 @@
   top: 0;
   left: 0;
   user-select: none;
+  color: tomato
+}.jt__row.jt__row--sibling :hover{
+    color: blueviolet;
 }
-
 .jt__text {
   display: block;
   transform-origin: bottom left;
@@ -100,7 +96,7 @@
   }
   0%   { 
   opacity: 0; 
-  filter: blur(10px);
+  filter: blur(30px);
   
   }
   100% { 
@@ -108,16 +104,3 @@
   filter: blur(0px);
   }
 }
-
-
-
-.debug .jt__row:nth-child(even) {
-  color: black;
-  background: white;
-}
-.debug .jt__row:nth-child(odd) {
-  color: white;
-  background: black;
-}
-
-* { box-sizing: border-box }

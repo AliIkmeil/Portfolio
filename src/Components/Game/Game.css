@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#gamePage{
+    background-image: url(https://t3.ftcdn.net/jpg/02/70/21/70/360_F_270217079_JhxcnAedqOXr8sHNpbAk7zTAryQitbL2.jpg);
+    /* width: 100vw; */
+    background-size: 1100px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#road{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx_VQRx0C_8OtH-fLVg1PJKn03nAnVnK8qjA&usqp=CAU);
+    height: 170vh;
+    width: 50vw;
+    position: relative;
+    top: -76.8vh;
+}
+#start{
+    position: absolute;
+    top: 60vh;
+    left: 47vw;
+    z-index: 100;
+    font-size: 2rem;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#score{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 2rem;
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+}
+#enemycar1{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    z-index: 1001;
+    animation: ecar1 infinite linear 3s;
+}
+#enemycar2{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    z-index: 1001;
+    animation: ecar2 infinite linear 4s;
+}
+#enemycar3{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: -100px;
+    z-index: 1001;
+    animation: ecar3 infinite linear 6s;
+}
+#enemycar4{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: -310px;
+    z-index: 1001;
+    animation: ecar4 infinite linear 2s;
+}
+#mycar{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15vh;
+    z-index: 1001;
+}
+.ecarimg{
+    width: 80px;
+}
+
+@keyframes ecar1{
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}@keyframes ecar2{
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}@keyframes ecar3{
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}@keyframes ecar4{
+    0%{
+        top: -100vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}
