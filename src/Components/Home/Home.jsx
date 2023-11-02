@@ -12,7 +12,6 @@ const Home = () => {
 </div>    
     <div className='wrapper'>
         <div className='cols cols0'>
-            <div></div>
             <span className='topline'>Software Developer</span>
             <h1 className='esme'>Stalk <span className='multiText'>Into<br/> my <br/>Portfolio<b>.</b></span></h1>
         </div>
