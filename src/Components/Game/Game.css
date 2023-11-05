@@ -94,17 +94,17 @@
 }
 #mycar{
     width: 100px;
-    height: 100px;
+    
+    margin: 0;
     position: relative;
     top: 15vh;
     z-index: 1001;
+    border: 2px solid red;
 }
-.ecarimg{
-    width: 100%;
-    /* border: 2px solid red; */
-    
+#mycarimg{
+    width: 100px;
+    height: 100px;
 }
-
 @keyframes ecar1{
     0%{
         top: -100vh;

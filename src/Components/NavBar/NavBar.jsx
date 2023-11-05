@@ -8,69 +8,84 @@ const NavBar = () => {
       <ul className="navItems">
         <li>
           <a href="#">
-            <h1 class="jt --debug">
-              <span class="jt__row" onClick={()=>{navigate("/")}}>
-                <span class="jt__text" onClick={()=>{navigate("/")}}>Home</span>
+            <h1 className="jt --debug">
+              <span className="jt__row" onClick={()=>{navigate("/")}}>
+                <span className="jt__text" onClick={()=>{navigate("/")}}>Home</span>
               </span>
-              <span class="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("/")}}>Home</span>
+              <span className="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("/")}}>Home</span>
               </span>
-              <span class="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("/")}}>Home</span>
+              <span className="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("/")}}>Home</span>
               </span>
-              <span class="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("/")}}>Home</span>
+              <span className="jt__row jt__row--sibling" onClick={()=>{navigate("/")}} aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("/")}}>Home</span>
               </span>
             </h1>
           </a>
         </li>
         <li>
           <a href="#">
-            <h1 class="jt --debug">
-              <span class="jt__row">
-                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
+            <h1 className="jt --debug">
+              <span className="jt__row">
+                <span className="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
-              <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
+              <span className="jt__row jt__row--sibling" aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
-              <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
+              <span className="jt__row jt__row--sibling" aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
-              <span class="jt__row jt__row--sibling" aria-hidden="true">
-                <span class="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
+              <span className="jt__row jt__row--sibling" aria-hidden="true">
+                <span className="jt__text" onClick={()=>{navigate("./aboutme")}}>About Me</span>
               </span>
             </h1>
           </a>
         </li>
         <li>
-          <a href="#">            <h1 class="jt --debug">
-  <span class="jt__row" onClick={()=>{navigate("/projects")}}>
-    <span class="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
+          <a href="#">            <h1 className="jt --debug">
+  <span className="jt__row" onClick={()=>{navigate("/projects")}}>
+    <span className="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
-    <span class="jt__text" onClick={()=>{navigate("/projects")}} >Projects</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
+    <span className="jt__text" onClick={()=>{navigate("/projects")}} >Projects</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
-    <span class="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
+    <span className="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
-    <span class="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/projects")}}>
+    <span className="jt__text" onClick={()=>{navigate("/projects")}}>Projects</span>
+  </span>
+</h1></a>
+        </li><li>
+          <a href="#">            <h1 className="jt --debug">
+  <span className="jt__row" onClick={()=>{navigate("/skills")}}>
+    <span className="jt__text" onClick={()=>{navigate("/skills")}}>Skills</span>
+  </span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/skills")}}>
+    <span className="jt__text" onClick={()=>{navigate("/skills")}} >Skills</span>
+  </span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/skills")}}>
+    <span className="jt__text" onClick={()=>{navigate("/skills")}}>Skills</span>
+  </span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true" onClick={()=>{navigate("/skills")}}>
+    <span className="jt__text" onClick={()=>{navigate("/skills")}}>Skills</span>
   </span>
 </h1></a>
         </li>
         <li>
-          <a href="#">            <h1 class="jt --debug">
-  <span class="jt__row">
-    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
+          <a href="#">            <h1 className="jt --debug">
+  <span className="jt__row">
+    <span className="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true">
+    <span className="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true">
+    <span className="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
-  <span class="jt__row jt__row--sibling" aria-hidden="true">
-    <span class="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
+  <span className="jt__row jt__row--sibling" aria-hidden="true">
+    <span className="jt__text" onClick={()=>{navigate("/game")}}>Game</span>
   </span>
 </h1></a>
         </li>

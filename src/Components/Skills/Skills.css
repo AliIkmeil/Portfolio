@@ -1,0 +1,56 @@
+.iconsContainer{
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+}
+.iconsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icons{
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+}
+.reactIcon{
+    color: skyblue;
+}
+.javaScriptIcon{
+    color: orange;
+}
+.names{
+    color: black;
+    margin-left: 10px;
+}
+.mongoDBIcon{
+    color: green;
+}
+.postgreSQLIcon{
+    color: blue;
+}
+.HTMLIcon{
+    color: red;
+}
+.nodeJSIcon{
+    color: greenyellow;
+}
+.reduxIcon{
+    color: blueviolet;
+}
+.html{
+    margin-left: 23px;
+}
+.react{
+    margin-left: 26px;
+}
+.nodeJS{
+    margin-left: 17px;
+}
+.redux{
+    margin-left: 23px;
+}
+.cssIcon{
+    color: rgb(80, 80, 241);
+}
+.css{
+    margin-left: 33px;
+}

@@ -6,6 +6,7 @@ import WashMyRide from "../Components/AllProjects/WashMyRide";
 import KhalekBdarak from "../Components/AllProjects/KhalekBdarak";
 import AboutMe from "../Components/AboutMe/AboutMe";
 import Game from "../Components/Game/Game";
+import Skills from "../Components/Skills/Skills";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,9 @@ export const router = createBrowserRouter([
       },
       { path: "/aboutme", 
       element: <AboutMe />
+      },,
+      { path: "/skills", 
+      element: <Skills />
       },
     ],
 },
