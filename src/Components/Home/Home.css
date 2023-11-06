@@ -1,190 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:"poppins",sans-serif ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
-body{
-    overflow: hidden;
-    
+body {
+  /* overflow:  hidden; */
 }
-.container{
-    /* overflow-y: hidden; */
-    position: relative;
-    bottom: 15px;
-    width: 100vw !important;
-    min-height: 100vh;
-    background-image: image-set("https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
-    background-size: 100% 100%; 
-    background-position: 160px -50px;
-    background-repeat: no-repeat;
+#home {
+  overflow: hidden;
 }
-.logo{
-    display: flex;
-    font-size: 40px;
-    font-weight: 800;
-    color: purple;
-    letter-spacing: 3px;
-    cursor: pointer;
-    text-transform: uppercase;
+.container {
+  /* overflow: hidden; */
+  position: relative;
+  bottom: 15px;
+  width: 100vw !important;
+  min-height: 90vh;
+  background-image: image-set(
+    "https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966"
+  );
+  background-size: 100% 100%;
+  background-position: 160px -50px;
+  background-repeat: no-repeat;
 }
-b{
-    font-size: 50px;
-    color: gray;
-}
-.wrapper{
-    position: absolute;
-    top: 160px;
-    right: 250px;  
+.logo {
   display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10%;
-    overflow: hidden;
+  font-size: 40px;
+  font-weight: 800;
+  color: purple;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+b {
+  font-size: 50px;
+  color: gray;
+}
+.wrapper {
+  position: absolute;
+  /* top: 20px; */
+  right: 250px;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
 }
 
-.cols{
-    /* position: relative;
+.cols {
+  /* position: relative;
     top: -100px; */
-    margin-bottom: 160px;
-    width: 50%;
+  margin-bottom: 30px;
+  width: 50%;
 }
-.cols1{
+.cols1 {
   /* position: relative;
   top: -100px; */
   /* margin-bottom: 140px; */
   width: 50%;
 }
-.topline{
-    display: block;
-    position: relative;
-    font-size: 35px;
-    letter-spacing: 5px;
-    color: tomato
+.topline {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: tomato;
 }
-.topline::after{
-    position: absolute;
-    content: "";
-    height: 4px;
-    width: 45px;
-    bottom: 10px;
-    background-color: gray;
+.topline::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: gray;
 }
-.esme{
-display: block;
-font-size: 3.5em;
-font-weight: 700;
-color: gray;
+.esme {
+  display: block;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: gray;
 }
-.multiText{
-    
-    color: tomato;
-    text-transform: capitalize;
+.multiText {
+  color: tomato;
+  text-transform: capitalize;
 }
-.descreption{
-    display: block;
-    width: 90%;
-    font-size: 1.2em;
-    color: gray;
+.descreption {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  color: gray;
 }
-.btns{
-    width: 100%;
-    position: relative;
-    left: 150px;
+.btns {
+  width: 100%;
+  position: relative;
+  left: 150px;
 }
-.homeButtons{
-outline: none;
-border: none;
-cursor: pointer;
-font-size: 25px;
-font-weight: 400;
-color: white;
-background-color: grey;
-letter-spacing: 2px;
-padding: 8px 14px;
-margin: 40px 5px;
-text-transform: capitalize;
-box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+.homeButtons {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  background-color: grey;
+  letter-spacing: 2px;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
-.homeButtons:hover{
-    background-color: purple;
+.homeButtons:hover {
+  background-color: purple;
 }
-.imgbox{
-    position: relative;
-    width: 100%;
-    height: 100%
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.imgbox img{
-    position: relative;
-    height: 50%;
-    width: 50%;
-    top: 100px;
-    left: 210px;
-    transform: rotateY(180deg);
-    animation: animateUser 10s linear infinite;
-    border-radius: 25%;
+.imgbox img {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  top: 100px;
+  left: 210px;
+  transform: rotateY(180deg);
+  animation: animateUser 10s linear infinite;
+  border-radius: 25%;
 }
-@keyframes animateUser{
-    50%{
-        right: 100px;
-        top: 10px;
-    }
-}
-  .table {
-    width: 100px;
-    height: 50px;
-    padding-left: 140px;
-    padding-top: 50px;
+@keyframes animateUser {
+  50% {
+    right: 100px;
+    top: 10px;
   }
-  .table .monitor-wrapper .monitor {
-    width: 300px;
-    height: 100px;
-    overflow: hidden;
-    white-space: nowrap;
+}
+.table {
+  width: 100px;
+  /* height: 10px; */
+  padding-left: 140px;
+  padding-top: 50px;
+}
+.table .monitor-wrapper .monitor {
+  width: 300px;
+  /* height: 100px; */
+  overflow: hidden;
+  white-space: nowrap;
+}
+.table .monitor-wrapper .monitor p {
+  font-family: "VT323", monospace;
+  font-size: 70px;
+  position: relative;
+  display: inline-block;
+  animation: move 7s infinite linear;
+  color: gray;
+}
+
+@keyframes move {
+  from {
+    left: 800px;
   }
-  .table .monitor-wrapper .monitor p {
-    font-family: "VT323", monospace;
-    font-size: 70px;
-    position: relative;
-    display: inline-block;
-    animation: move 7s infinite linear;
-    color: gray;
+  to {
+    left: -800px;
   }
-  
-  @keyframes move {
-    from {
-      left: 800px;
-    }
-    to {
-      left: -800px;
-    }
+}
+.typewriter h1 {
+  color: tomato;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  width: 63%;
+  font-size: 25px;
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
   }
-  .typewriter h1 {
-    color: tomato;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  to {
     width: 63%;
-    font-size: 25px;
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
   }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 63% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
   }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white; }
+  50% {
+    border-color: white;
   }
+}

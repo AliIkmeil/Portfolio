@@ -16,7 +16,6 @@ const Skills = () => {
         <span><BiLogoHtml5 className='icons HTMLIcon'/><h1 className='names html'>HTML 5</h1></span>
         <span><BiLogoNodejs className='icons nodeJSIcon'/><h1 className='names nodeJS'>Node JS</h1></span>
         <span><BiLogoRedux className='icons reduxIcon'/><h1 className='names redux'>Redux</h1></span>
-        <span><BiLogoRedux className='icons reduxIcon'/><h1 className='names redux'>Redux</h1></span>
         <span><BiLogoCss3 className='icons cssIcon'/><h1 className='names css'>Css</h1></span>
         </div>
         <div></div>

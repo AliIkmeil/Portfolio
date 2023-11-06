@@ -6,7 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"poppins",sans-serif ;
-}
+    /* overflow: hidden; */
+  }
 .container2{
     position: relative;
     bottom: 15px;

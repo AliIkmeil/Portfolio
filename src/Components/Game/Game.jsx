@@ -1,11 +1,12 @@
 import React ,{useEffect}from 'react'
 import "./Game.css"
 import { Helmet } from 'react-helmet'
-import firstCar from "./png-transparent-red-sedan-car-door-car-seat-top-view-motor-vehicle-red-car-top-view-orange-car-seat-car-thumbnail-removebg-preview.png"
-import myCar from "./mycar.png"
-import yellowCar from "./yellowcar.png"
-import kashefCar from "./kashefCar.png"
-import grayCar from "./grayCar.png"
+
+import firstCar from "./png-transparent-red-sedan-car-door-car-seat-top-view-motor-vehicle-red-car-top-view-orange-car-seat-car-thumbnail-removebg-preview-removebg-preview.png"
+import myCar from "./mycar-removebg-preview.png"
+import yellowCar from "./yellowcar-removebg-preview.png"
+import kashefCar from "./kashefCar-removebg-preview.png"
+import grayCar from "./grayCar-removebg-preview.png"
 import { useNavigate } from 'react-router-dom'
 const Game = () => {
     const navigate=useNavigate()
@@ -99,7 +100,7 @@ useEffect(() => {
         let myCarRight=Math.abs(document.getElementById("mycarimg").getBoundingClientRect().right)
         let myCarTop=Math.abs(document.getElementById("mycarimg").getBoundingClientRect().top)
         let myCarBottom=Math.abs(document.getElementById("mycarimg").getBoundingClientRect().bottom)
-        if (((car1left<myCarLeft&& myCarLeft<car1right)||(car1left<myCarRight&&myCarRight<car1right))&&((car1top<myCarTop&&myCarTop<car1bottom)||(car1top<myCarBottom&&myCarBottom<car1bottom)) ||((car2left<myCarLeft&& myCarLeft<car2right)||(car2left<myCarRight&&myCarRight<car2right))&&((car2top<myCarTop&&myCarTop<car2bottom)||(car2top<myCarBottom&&myCarBottom<car2bottom)) ||((car3left<myCarLeft&& myCarLeft<car3right)||(car3left<myCarRight&&myCarRight<car3right))&&((car3top<myCarTop&&myCarTop<car3bottom)||(car3top<myCarBottom&&myCarBottom<car3bottom)) ||((car4left<myCarLeft&& myCarLeft<car4right)||(car4left<myCarRight&&myCarRight<car4right))&&((car4top<myCarTop&&myCarTop<car4bottom)||(car4top<myCarBottom&&myCarBottom<car4bottom))||(myCarTop<20||myCarBottom>690||myCarRight>970||myCarLeft<150) ){
+        if (((car1left<myCarLeft&& myCarLeft<car1right)||(car1left<myCarRight&&myCarRight<car1right))&&((car1top<myCarTop&&myCarTop<car1bottom)||(car1top<myCarBottom&&myCarBottom<car1bottom)) ||((car2left<myCarLeft&& myCarLeft<car2right)||(car2left<myCarRight&&myCarRight<car2right))&&((car2top<myCarTop&&myCarTop<car2bottom)||(car2top<myCarBottom&&myCarBottom<car2bottom)) ||((car3left<myCarLeft&& myCarLeft<car3right)||(car3left<myCarRight&&myCarRight<car3right))&&((car3top<myCarTop&&myCarTop<car3bottom)||(car3top<myCarBottom&&myCarBottom<car3bottom)) ||((car4left<myCarLeft&& myCarLeft<car4right)||(car4left<myCarRight&&myCarRight<car4right))&&((car4top<myCarTop&&myCarTop<car4bottom)||(car4top<myCarBottom&&myCarBottom<car4bottom))||(myCarTop<20||myCarBottom>690||myCarRight>1170||myCarLeft<150) ){
             setTimeout(()=>{
                 alert("Game Over")
             })

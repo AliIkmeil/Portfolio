@@ -3,7 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import "./Home.css";
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="table center">
         <div className="monitor-wrapper center">
           <div className="monitor center">
@@ -22,7 +22,6 @@ const Home = () => {
               Portfolio<b>.</b>
             </span>
           </h1>
-          <div className="emptyDiv"></div>
         </div>
       </div>
     </div>

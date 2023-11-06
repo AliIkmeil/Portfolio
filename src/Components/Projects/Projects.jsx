@@ -1,26 +1,108 @@
-import React from 'react'
-import "./Projects.css"
-import WashMyRide  from "./WashMyRide imoji.png"
-import KhalekBdarak from "./Supermarket-E-Logo.webp"
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import "./Projects.css";
+import WashMyRide from "./WashMyRide imoji.png";
+import KhalekBdarak from "./Supermarket-E-Logo.webp";
+import { Outlet, useNavigate } from "react-router-dom";
+import AspectRatio from "@mui/joy/AspectRatio";
+import Button from "@mui/joy/Button";
+import Card from "@mui/joy/Card";
+import CardContent from "@mui/joy/CardContent";
+import CardOverflow from "@mui/joy/CardOverflow";
+import Chip from "@mui/joy/Chip";
+import Link from "@mui/joy/Link";
+import Typography from "@mui/joy/Typography";
 const Projects = () => {
-const navigate = useNavigate()
-  return ( <div class="slider">
-  <span id="slide-1"></span>
-  <span id="slide-2"></span>
-  <div class="image-container">
-    
+  const navigate = useNavigate();
+  return (
+    <div className="projectsDiv">
+      <div className="projectsImgs">
+        {/* <img className='khalekBdarakImg images' src={KhalekBdarak} onClick={()=>{
+            navigate("khalekbdarak")
+          }}/>
+          <img className='washMyRideImg images' src={WashMyRide} onClick={()=>{
+            navigate("washmyride")
+          }}/>         */}
+        <Card
+          sx={{ width: 300, height: 100, maxWidth: "100%", boxShadow: "lg" }}
+        >
+          <CardOverflow>
+            <AspectRatio sx={{ height: 120 }}>
+              <img
+                src={WashMyRide}
+                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                loading="lazy"
+                alt=""
+              />
+            </AspectRatio>
+          </CardOverflow>
+          <CardContent>
+            <Typography level="body-xs">Wash My Ride</Typography>
+            <Link
+              href="#product-card"
+              fontWeight="md"
+              color="neutral"
+              textColor="text.primary"
+              overlay
+            >
+              Team-Work project the main idea is to deliver car services to
+              clients!
+            </Link>
+          </CardContent>
+          <CardOverflow>
+            <Button
+              onClick={() => {
+                navigate("washmyride");
+              }}
+              variant="solid"
+              color="danger"
+              size="lg"
+            >
+              Show Description
+            </Button>
+          </CardOverflow>
+        </Card>
+        <Card sx={{ width: 300, maxWidth: "100%", boxShadow: "lg" }}>
+          <CardOverflow>
+            <AspectRatio sx={{ minWidth: 20 }}>
+              <img
+                src={KhalekBdarak}
+                srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
+                loading="lazy"
+                alt=""
+              />
+            </AspectRatio>
+          </CardOverflow>
+          <CardContent>
+            <Typography level="body-xs">Khalek Bdarak SuperMarket</Typography>
+            <Link
+              href="#product-card"
+              fontWeight="md"
+              color="neutral"
+              textColor="text.primary"
+              overlay
+            >
+              An E-Commerce Website that provides a SuperMarket products!
+            </Link>
+          </CardContent>
+          <CardOverflow>
+            <Button
+              onClick={() => {
+                navigate("khalekbdarak");
+              }}
+              variant="solid"
+              color="danger"
+              size="lg"
+            >
+              Show Description
+            </Button>
+          </CardOverflow>
+        </Card>
+      </div>
+      <div>
+        <Outlet />
+      </div>
+    </div>
+  );
+};
 
-    <img src="https://cdn.dribbble.com/users/479967/screenshots/2838999/comp_1_9.gif" className="slide washMyRide" onClick={()=>{navigate("/washMyRide")}}/>
-    
-    <img src={KhalekBdarak} className="slide khallekBdarak" onClick={()=>{navigate("/khalekBdarak")}} />
-  </div>
-  <div class="buttons">
-    <a href="#slide-1"></a>
-    <a href="#slide-2"></a>
-  </div>
-</div>
-  )
-}
-
-export default Projects
+export default Projects;

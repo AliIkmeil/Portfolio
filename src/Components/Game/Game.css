@@ -4,7 +4,7 @@
 }
 #gamePage{
     background-image: url(https://t3.ftcdn.net/jpg/02/70/21/70/360_F_270217079_JhxcnAedqOXr8sHNpbAk7zTAryQitbL2.jpg);
-    /* width: 100vw; */
+    overflow: hidden;
     background-size: 1100px;
     height: 100vh;
     display: grid;
@@ -40,6 +40,7 @@
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
+    z-index: 1002;
 }
 #score{
     position: absolute;
@@ -56,6 +57,7 @@
     /* display: grid;
     place-items: center; */
     position: relative;
+    /* border: 2px solid red; */
     width: 100px;
     height: 100px;
     left: 150px;
@@ -87,19 +89,18 @@
     place-items: center; */
     position: relative;
     width: 70px;
-    height: 70px;
+    height: 110px;
     left: -120px;
     z-index: 1001;
     /* animation: ecar4 infinite linear 2s; */
 }
 #mycar{
-    width: 100px;
+    width: 50px;
     
-    margin: 0;
+    /* margin: 40px; */
     position: relative;
     top: 15vh;
     z-index: 1001;
-    border: 2px solid red;
 }
 #mycarimg{
     width: 100px;
