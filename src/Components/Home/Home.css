@@ -6,14 +6,10 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
-body {
-  /* overflow:  hidden; */
-}
 #home {
   overflow: hidden;
 }
 .container {
-  /* overflow: hidden; */
   position: relative;
   bottom: 15px;
   width: 100vw !important;
