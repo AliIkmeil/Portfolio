@@ -13,7 +13,7 @@ const WashMyRide = () => {
   return (
     <div className='khalekbdarakDiv'>
       <h1 className='khalekBdarakHeader'>Wash My Ride</h1>
-      <p>A webSite that represent services and accessories for cars ,client can order his serviece and add accessories for his order ,then he has to confirm the time and location soo that the employee will come for him in the time.<br/>Also the website has an admin dashboard ,soo the admin account will be able to add services and accessoriesand admins. <br/>Also he will get the orders to set the employees for every order.</p>
+      <p className='khalekBdarakParagraph'>A webSite that represent services and accessories for cars ,client can order his serviece and add accessories for his order ,then he has to confirm the time and location soo that the employee will come for him in the time.<br/>Also the website has an admin dashboard ,soo the admin account will be able to add services and accessoriesand admins. <br/>Also he will get the orders to set the employees for every order.</p>
       <section className='sliderContainer'>
         <div className='slider-wrapper'>
           <div className='slider'>

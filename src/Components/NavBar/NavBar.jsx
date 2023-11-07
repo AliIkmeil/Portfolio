@@ -91,15 +91,15 @@ const NavBar = () => {
         </li>
       </ul>
       <div className="links">
-        <a href="#">
+        <a href="https://www.linkedin.com/in/aliikmeil/" target="_blank">
           {" "}
           <i className="fa fa-linkedin-square icon linkedIn"></i>
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/ali_ikmail8/" target="_blank">
           <i className="fa fa-instagram icon instagram"></i>{" "}
         </a>
-        <a href="#">
-          <i className="fa fa-twitter icon twitter"></i>
+        <a href="https://github.com/AliIkmeil" target="_blank">
+          <i className="fa fa-github icon github"></i>
         </a>
       </div>
     </nav>

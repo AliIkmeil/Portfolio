@@ -10,7 +10,7 @@ const KhalekBdarak = () => {
   return (
     <div className='khalekbdarakDiv'>
       <h1 className='khalekBdarakHeader'>Khalek Bdarak SuperMarket</h1>
-      <p>An E-Commerce webSite thats provides all the super market products in a sorted categories ,Firstly you have to register and login to your main account to procced to add you products in your cart ,after adding the products to your cart you have to checkout and save your credit card information ,Soo that the product will be delivered for you in few hours.</p>
+      <p className='khalekBdarakParagraph'>An E-Commerce webSite thats provides all the super market products in a sorted categories ,Firstly you have to register and login to your main account to procced to add you products in your cart ,after adding the products to your cart you have to checkout and save your credit card information ,Soo that the product will be delivered for you in few hours.</p>
       <section className='sliderContainer'>
         <div className='slider-wrapper'>
           <div className='slider'>

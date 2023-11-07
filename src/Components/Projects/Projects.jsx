@@ -16,14 +16,8 @@ const Projects = () => {
   return (
     <div className="projectsDiv">
       <div className="projectsImgs">
-        {/* <img className='khalekBdarakImg images' src={KhalekBdarak} onClick={()=>{
-            navigate("khalekbdarak")
-          }}/>
-          <img className='washMyRideImg images' src={WashMyRide} onClick={()=>{
-            navigate("washmyride")
-          }}/>         */}
         <Card
-          sx={{ width: 300, height: 100, maxWidth: "100%", boxShadow: "lg" }}
+          sx={{ width: 300, height: 220, maxWidth: "100%", boxShadow: "lg" }}
         >
           <CardOverflow>
             <AspectRatio sx={{ height: 120 }}>
@@ -51,7 +45,7 @@ const Projects = () => {
           <CardOverflow>
             <Button
               onClick={() => {
-                navigate("washmyride");
+                navigate("");
               }}
               variant="solid"
               color="danger"
@@ -63,7 +57,7 @@ const Projects = () => {
         </Card>
         <Card sx={{ width: 300, maxWidth: "100%", boxShadow: "lg" }}>
           <CardOverflow>
-            <AspectRatio sx={{ minWidth: 20 }}>
+            <AspectRatio sx={{minWidth: 20,height:170 }}>
               <img
                 src={KhalekBdarak}
                 srcSet="https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=286&dpr=2 2x"
