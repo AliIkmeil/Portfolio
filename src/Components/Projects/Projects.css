@@ -1,7 +1,7 @@
 .projectsDiv {
   display: grid;
   grid-template-columns: 2fr 6fr;
-  background-color: black;
+  background-color: white;
 }
 .projectsImgs {
   display: grid;

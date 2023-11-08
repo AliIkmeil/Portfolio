@@ -12,7 +12,7 @@
     position: relative;
     bottom: 15px;
     width: 100vw !important;
-    background-color :black;
+    /* background-color :black; */
     min-height: 100vh;
     background-size: 100% 100%; 
     background-position: 160px -50px;
@@ -37,10 +37,10 @@ display: flex;
     left: 210px;
     transform: rotateY(180deg);
     animation: animateUser 10s linear infinite;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 .welcome{
-  color: white;
+  color: black;
   font-size: 50px;
   font-weight: bolder;
 }
@@ -50,11 +50,11 @@ display: flex;
   width: 550px;
 }
 .headers{
-  color: wheat;
+  color: tomato;
   font-size: 30px;
 }
 .paragraphs{
-  color: white
+  color: black
 }
 .reactPhoto{
   margin-top: 10px;

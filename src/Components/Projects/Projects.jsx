@@ -43,7 +43,7 @@ const Projects = () => {
             </Link>
           </CardContent>
           <CardOverflow>
-            <Button
+            <Button style={{backgroundColor:"tomato"}}
               onClick={() => {
                 navigate("");
               }}
@@ -79,7 +79,7 @@ const Projects = () => {
             </Link>
           </CardContent>
           <CardOverflow>
-            <Button
+            <Button style={{backgroundColor:"tomato"}}
               onClick={() => {
                 navigate("khalekbdarak");
               }}

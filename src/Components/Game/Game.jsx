@@ -15,16 +15,16 @@ const Game = () => {
     let l=0
     // const startBtn = document.getElementById("start")
     window.addEventListener("keydown",function(x){
-        if (x.keyCode==87){
+        if (x.keyCode==38){
             t=t-3
         }
-        if (x.keyCode==65){
+        if (x.keyCode==37){
             l=l-1
         }
-        if (x.keyCode==83){
+        if (x.keyCode==40){
             t=t+3
         }
-        if (x.keyCode==68){
+        if (x.keyCode==39){
             l=l+1
         }
         document.getElementById("mycar").style.top=`${t}vh`
@@ -115,9 +115,6 @@ useEffect(() => {
   
     return (
         <div id='gamePage'>
-        <Helmet>
-        <script src="./gamees.js"></script>
-        </Helmet>
         {/* <script src='./Game.js'></script> */}
         <div id='score'>Score : 0</div>
         <button onClick={()=>{navigate("/")}} id='homePageButton'>Home Page</button>
