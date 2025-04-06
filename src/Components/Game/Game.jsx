@@ -1,13 +1,11 @@
-import React ,{useEffect}from 'react'
-import "./Game.css"
-import { Helmet } from 'react-helmet'
-
-import firstCar from "./png-transparent-red-sedan-car-door-car-seat-top-view-motor-vehicle-red-car-top-view-orange-car-seat-car-thumbnail-removebg-preview-removebg-preview.png"
-import myCar from "./mycar-removebg-preview.png"
-import yellowCar from "./yellowcar-removebg-preview.png"
-import kashefCar from "./kashefCar-removebg-preview.png"
-import grayCar from "./grayCar-removebg-preview.png"
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import "./Game.css"
+import grayCar from "./grayCar-removebg-preview.png"
+import kashefCar from "./kashefCar-removebg-preview.png"
+import myCar from "./mycar-removebg-preview.png"
+import firstCar from "./png-transparent-red-sedan-car-door-car-seat-top-view-motor-vehicle-red-car-top-view-orange-car-seat-car-thumbnail-removebg-preview-removebg-preview.png"
+import yellowCar from "./yellowcar-removebg-preview.png"
 const Game = () => {
     const navigate=useNavigate()
     let num=0

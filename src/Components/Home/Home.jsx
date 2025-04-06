@@ -1,5 +1,3 @@
-import React from "react";
-import NavBar from "../NavBar/NavBar";
 import "./Home.css";
 const Home = () => {
   return (
@@ -7,7 +5,7 @@ const Home = () => {
       <div className="table center">
         <div className="monitor-wrapper center">
           <div className="monitor center">
-            <p>Hello I'm Ali Ikmeil</p>
+            <p>Hello I am Ali Ikmeil</p>
           </div>
         </div>
       </div>
