@@ -18,7 +18,6 @@ const AboutMe = () => {
             <div className='cols cols1'>
                 <div className='imgboxAboutMe'>
                     <img src='../../public/images/AliImage.png'/>
-        
                 </div>
             </div>
     </div>
